@@ -1,6 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Van Nederlands-Indië naar Indonesië - Een reis door grote historische gebeurtenissen
 
-## Available Scripts
+
+
+
+
+
+
+
+~~This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).~~
+
+~~## Available Scripts~~
 
 In the project directory, you can run:
 
