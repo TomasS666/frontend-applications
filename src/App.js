@@ -27,7 +27,7 @@ class App extends Component {
               <Places />
           </Route>
           <Route exact path="/">
-            <Home />
+            <Home/>
           </Route>
         </Router>
       </main>
