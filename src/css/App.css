@@ -31,4 +31,14 @@ h6 {
   font-weight: bold;
   font-style: italic;
 }
+
+header {
+  height: 4rem;
+  width: 100%;
+  -webkit-box-shadow: 3px 3px 3px grey;
+          box-shadow: 3px 3px 3px grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=App.css.map */
