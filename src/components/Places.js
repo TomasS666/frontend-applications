@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import SwipeReact from 'swipe-react';
 
 import { runQuery } from '../helpers/runQuery.js';
 import Place from './Place';
@@ -13,24 +13,29 @@ class Places extends Component {
         super(props)
         this.next = this.next.bind(this);
         this.previous = this.previous.bind(this);
+
+        this.state = {
+            title: '',
+            imgPath: '',
+            places: [],
+            index: 0,
+            liked: ""
+        }
+
     }
 
-    state = {
-        title: '',
-        imgPath: '',
-        places: [],
-        index: 0
-    }
+    
       
 
-    places = []
+    places = [];
 
     componentDidMount() {
+
+        console.log(this.left)
       
         const url ="https://api.data.netwerkdigitaalerfgoed.nl/datasets/ivo/NMVW/services/NMVW-38/sparql";
         //Note that the query is wrapped in es6 template strings to allow for easy copy pasting
       
-        //Note that the query is wrapped in es6 template strings to allow for easy copy pasting
         var query = `
         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX dc: <http://purl.org/dc/elements/1.1/>
@@ -76,9 +81,27 @@ class Places extends Component {
                 // length: length
                 places: response.results.bindings
             });
-            console.log(this)
+      
 
         })
+    }
+
+    likeChange = (likeValue) =>{
+
+        console.log(likeValue)
+        this.setState({
+            liked: likeValue
+        });
+
+        console.log(this.state.liked + "soort van gelukt? ")
+
+        if(this.state.index >= (this.state.places.length - 1)){
+            console.log("haha")
+        }else{
+            this.setState({
+                index: (this.state.index + 1)
+            });
+        }
     }
 
     next(){
@@ -105,16 +128,21 @@ class Places extends Component {
         }
     }
       
+    // left = () =>{
+    //     console.log("dit komt binnen");
+    // }
 
     render(){
         // console.log(this.state.articles[0]);
 
         const places = this.state.places.map((item, index) => ( 
             <Place 
+                likechange={ this.likeChange }
                 disabled="true" 
                 title={ item.title.value } 
                 key={ index }
-                imgPath={ item.img.value } 
+                imgPath={ item.img.value }
+                liked={ this.state.liked }
             /> 
         ));
 
