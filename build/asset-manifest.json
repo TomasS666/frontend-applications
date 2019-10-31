@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e21ef1fb.chunk.css",
-    "main.js": "/static/js/main.442a2d4e.chunk.js",
-    "main.js.map": "/static/js/main.442a2d4e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1bfec340.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1bfec340.js.map",
-    "static/js/2.ca4cc7c8.chunk.js": "/static/js/2.ca4cc7c8.chunk.js",
-    "static/js/2.ca4cc7c8.chunk.js.map": "/static/js/2.ca4cc7c8.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3b1e2926d27c0e161085dcc8a6a61e71.js": "/precache-manifest.3b1e2926d27c0e161085dcc8a6a61e71.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e21ef1fb.chunk.css.map": "/static/css/main.e21ef1fb.chunk.css.map",
-    "static/media/App.css": "/static/media/Montserrat-Regular.ee653992.ttf"
+    "main.css": "/TomasS666/frontend-applications/static/css/main.0e15fa94.chunk.css",
+    "main.js": "/TomasS666/frontend-applications/static/js/main.442a2d4e.chunk.js",
+    "main.js.map": "/TomasS666/frontend-applications/static/js/main.442a2d4e.chunk.js.map",
+    "runtime-main.js": "/TomasS666/frontend-applications/static/js/runtime-main.acbdc559.js",
+    "runtime-main.js.map": "/TomasS666/frontend-applications/static/js/runtime-main.acbdc559.js.map",
+    "static/js/2.ca4cc7c8.chunk.js": "/TomasS666/frontend-applications/static/js/2.ca4cc7c8.chunk.js",
+    "static/js/2.ca4cc7c8.chunk.js.map": "/TomasS666/frontend-applications/static/js/2.ca4cc7c8.chunk.js.map",
+    "index.html": "/TomasS666/frontend-applications/index.html",
+    "precache-manifest.f73cbafd774a69393e0fcffa625af311.js": "/TomasS666/frontend-applications/precache-manifest.f73cbafd774a69393e0fcffa625af311.js",
+    "service-worker.js": "/TomasS666/frontend-applications/service-worker.js",
+    "static/css/main.0e15fa94.chunk.css.map": "/TomasS666/frontend-applications/static/css/main.0e15fa94.chunk.css.map",
+    "static/media/App.css": "/TomasS666/frontend-applications/static/media/Montserrat-Regular.ee653992.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.1bfec340.js",
+    "static/js/runtime-main.acbdc559.js",
     "static/js/2.ca4cc7c8.chunk.js",
-    "static/css/main.e21ef1fb.chunk.css",
+    "static/css/main.0e15fa94.chunk.css",
     "static/js/main.442a2d4e.chunk.js"
   ]
 }
