@@ -1,12 +1,12 @@
 // React Packages
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import React, { Component } from 'react';
 
 // Style
 import './css/App.css';
 
 // Main elements 
-import Header from './components/main-components/Header'
+import Header from './components/main-components/Header';
 
 // Components
 import Places from './components/Places';
@@ -16,6 +16,12 @@ import Home from './pages/Home';
 
 class App extends Component {
 
+  constructor(props){
+    super(props);
+
+    this.test = "https://tomass666.github.io/frontend-applications/";
+  }
+
   render(){
     return (
 
@@ -23,12 +29,12 @@ class App extends Component {
       <Header />
       <main>
         <h1>fwefwef</h1>
-        <Router>
+        <Router basename={this.test}>
           <Route path="/places" component="place">
-            <Places />
+
           </Route>
           <Route exact path="/">
-            <Home/>
+
           </Route>
         </Router>
       </main>
