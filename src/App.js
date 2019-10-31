@@ -11,6 +11,9 @@ import Header from './components/main-components/Header'
 // Components
 import Places from './components/Places';
 
+// Pages 
+import Home from './pages/Home'
+
 
 
 
