@@ -19,7 +19,7 @@ class App extends Component {
   constructor(props){
     super(props);
 
-    this.test = "https://tomass666.github.io/frontend-applications/";
+    this.test = 'https://tomass666.github.io/frontend-applications/';
   }
 
   render(){
