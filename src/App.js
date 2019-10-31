@@ -30,7 +30,7 @@ class App extends Component {
       <main>
         <h1>fwefwef</h1>
         <Router basename={this.test}>
-          <Route path="/places" component="place">
+          <Route path="/places" component={Places}>
 
           </Route>
           <Route exact path="/">
