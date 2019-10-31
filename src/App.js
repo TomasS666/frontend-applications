@@ -3,7 +3,7 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import React, { Component } from 'react';
 
 // Style
-import './css/helper/';
+import './css/App.css';
 
 // Main elements 
 import Header from './components/main-components/Header'
@@ -24,7 +24,8 @@ class App extends Component {
 
       <React.Fragment>
       <Header />
-      <main>
+      <main>\
+        <h1>fwefwef</h1>
         <Router>
           <Route path="/places" component="place">
               <Places />

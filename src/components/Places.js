@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+
 
 import { runQuery } from '../custom-modules/runQuery.js';
 import Place from './Place';

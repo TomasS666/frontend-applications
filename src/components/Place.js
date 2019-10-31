@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../App.css';
 import Places from './Places';
 import { runQuery } from '../custom-modules/runQuery.js';
 import Todos from './Todos';
