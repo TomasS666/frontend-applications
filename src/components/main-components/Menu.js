@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class Menu extends Component {
     render() {
@@ -6,7 +7,7 @@ export class Menu extends Component {
             <nav className="primary-navigation">
                 <ul>
                     <li>
-                        <a href="/places">Places</a>
+                        <Link to="/places">Places</Link>
                     </li>
                 </ul>
             </nav>

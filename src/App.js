@@ -1,7 +1,7 @@
 // React Packages
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import React, { Component } from 'react';
 
+import React, { Component } from 'react';
+import { HashRouter as Router, Route } from 'react-router-dom';
 // Style
 import './css/App.css';
 
