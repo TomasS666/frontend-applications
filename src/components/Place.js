@@ -41,7 +41,7 @@ class Place extends Component {
 
     componentDidMount(){
         if(this.props.disabled === "true"){
-            this.setState({disabled:"disabled"})
+            this.setState({disabled:"disabled"}) 
         }
     }
 
@@ -53,6 +53,7 @@ class Place extends Component {
     //         // })
     //         this.props.likechange('left');
     //     }
+    
     // }
     
     likeChange = (likeValue) =>{
