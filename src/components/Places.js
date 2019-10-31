@@ -91,9 +91,6 @@ class Places extends Component {
                 index: (this.state.index + 1)
             });
         }
-
-
-        
     }
 
     previous(){
@@ -125,7 +122,6 @@ class Places extends Component {
             <div>
             <ul>
                 { places[this.state.index] }
-                
             </ul>
             <button onClick={ this.previous } >Previous</button>
             <button onClick={ this.next } >Next</button>

@@ -12,10 +12,7 @@ import Header from './components/main-components/Header'
 import Places from './components/Places';
 
 // Pages 
-import Home from './pages/Home'
-
-
-
+import Home from './pages/Home';
 
 class App extends Component {
 
@@ -28,7 +25,7 @@ class App extends Component {
         <h1>fwefwef</h1>
         <Router>
           <Route path="/places" component="place">
-              <Places />
+            <Places />
           </Route>
           <Route exact path="/">
             <Home/>
