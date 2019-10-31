@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import { runQuery } from '../custom-modules/runQuery.js';
+import { runQuery } from '../helpers/runQuery.js';
 import Place from './Place';
 
 
@@ -115,16 +115,16 @@ class Places extends Component {
         const places = this.state.places.map((item, index) => ( 
             <Place 
                 disabled="true" 
-                title={item.title.value} 
-                key={index}
-                imgPath={item.img.value} 
+                title={ item.title.value } 
+                key={ index }
+                imgPath={ item.img.value } 
             /> 
         ));
 
         return(
             <div>
             <ul>
-                {places[this.state.index]}
+                { places[this.state.index] }
                 
             </ul>
             <button onClick={ this.previous } >Previous</button>

@@ -6,7 +6,7 @@ export async function runQuery(url, query){
         // req.catch(err => console.log(err))
 
         let response = await req;
-
+        
         let data = await response.json();
         
         return data;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Places from './Places';
-import { runQuery } from '../custom-modules/runQuery.js';
+import { runQuery } from '../helpers/runQuery.js';
 import Todos from './Todos';
 
 

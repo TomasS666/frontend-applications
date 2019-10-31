@@ -24,7 +24,7 @@ class App extends Component {
 
       <React.Fragment>
       <Header />
-      <main>\
+      <main>
         <h1>fwefwef</h1>
         <Router>
           <Route path="/places" component="place">
