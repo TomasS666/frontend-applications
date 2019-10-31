@@ -30,12 +30,11 @@ class App extends Component {
       <main>
         <h1>fwefwef</h1>
         <Router basename={this.test}>
-          <Route path="/places" component={Places}>
+        <Route exact path="/">
 
-          </Route>
-          <Route exact path="/">
-
-          </Route>
+        </Route>
+          <Route path="/places" component={Places}></Route>
+          
         </Router>
       </main>
       </React.Fragment>
