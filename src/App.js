@@ -26,10 +26,11 @@ class App extends Component {
     return (
 
       <React.Fragment>
-      <Header />
+ 
       <main>
         <h1>fwefwef</h1>
         <Router basename={this.test}>
+        <Header />
         <Route exact path="/">
 
         </Route>
