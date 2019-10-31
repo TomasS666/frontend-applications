@@ -3,7 +3,7 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import React, { Component } from 'react';
 
 // Style
-import './App.css';
+import './css/helper/';
 
 // Main elements 
 import Header from './components/main-components/Header'
