@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/frontend-applications/static/css/main.5c38a4f3.chunk.css",
+    "main.js": "/frontend-applications/static/js/main.f3c73812.chunk.js",
+    "main.js.map": "/frontend-applications/static/js/main.f3c73812.chunk.js.map",
+    "runtime-main.js": "/frontend-applications/static/js/runtime-main.00818f46.js",
+    "runtime-main.js.map": "/frontend-applications/static/js/runtime-main.00818f46.js.map",
+    "static/js/2.ca4cc7c8.chunk.js": "/frontend-applications/static/js/2.ca4cc7c8.chunk.js",
+    "static/js/2.ca4cc7c8.chunk.js.map": "/frontend-applications/static/js/2.ca4cc7c8.chunk.js.map",
+    "index.html": "/frontend-applications/index.html",
+    "precache-manifest.1b9dd68d274c9f8a89b72182e01a4613.js": "/frontend-applications/precache-manifest.1b9dd68d274c9f8a89b72182e01a4613.js",
+    "service-worker.js": "/frontend-applications/service-worker.js",
+    "static/css/main.5c38a4f3.chunk.css.map": "/frontend-applications/static/css/main.5c38a4f3.chunk.css.map",
+    "static/media/App.css": "/frontend-applications/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00818f46.js",
+    "static/js/2.ca4cc7c8.chunk.js",
+    "static/css/main.5c38a4f3.chunk.css",
+    "static/js/main.f3c73812.chunk.js"
+  ]
+}
