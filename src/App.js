@@ -27,17 +27,16 @@ class App extends Component {
 
       <React.Fragment>
  
-      <main>
-        <h1>fwefwef</h1>
-        <Router basename={this.test}>
-        <Header />
-        <Route exact path="/">
-
-        </Route>
-          <Route path="/places" component={Places}></Route>
+      
+        <Router >
           
+          <Header />
+          <main>
+          <Route exact path="/" component={ Home }></Route>
+          <Route path="/places" component={ Places }></Route>
+          </main>
         </Router>
-      </main>
+      
       </React.Fragment>
     );
   }

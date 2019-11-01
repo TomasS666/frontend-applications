@@ -1,4 +1,9 @@
 @import './helpers/fonts';
+@import './helpers/colors';
+
+*{
+    box-sizing: border-box;
+}
 
 html, body{
     margin: 0;
@@ -13,12 +18,56 @@ h5,
 h6{
     font-family: "Montserrat";
     font-weight: bold;
-    font-style: italic;
+    color: $primary;
 }
 
 header{
+    padding: 1rem;
     height: 4rem;
     width: 100%;
     box-shadow: 3px 3px 3px grey;
     display: flex;
+}
+
+main{
+    padding: 0 1rem;
+}
+
+article{
+    width: 100%;
+    padding: .5rem;
+}
+
+.logo{
+    display: block;
+    width: 15rem;
+}
+
+.object-list{
+    padding: 0; 
+    margin: 0;
+}
+
+button{
+    background-color: #fff;
+    border: none;
+    padding: .75rem 3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid $primary;
+    margin: 2rem 0;
+}
+
+.fade-in{
+    animation: 1.7s fade-in;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }

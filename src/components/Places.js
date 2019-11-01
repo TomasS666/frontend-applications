@@ -57,7 +57,6 @@ class Places extends Component {
             dct:created ?year;
             edm:isShownBy ?img.
 
-            FILTER CONTAINS( lcase(?title), "president")
 
                 }
 
@@ -88,9 +87,9 @@ class Places extends Component {
 
     likeChange = (likeValue) =>{
 
-        console.log(likeValue)
+        console.log(this.state.liked + "soort van gelukt? ")
         this.setState({
-            liked: likeValue
+            liked: likeValue 
         });
 
         console.log(this.state.liked + "soort van gelukt? ")
@@ -138,7 +137,7 @@ class Places extends Component {
         const places = this.state.places.map((item, index) => ( 
             <Place 
                 likechange={ this.likeChange }
-                disabled="true" 
+                appear={true} 
                 title={ item.title.value } 
                 key={ index }
                 imgPath={ item.img.value }
@@ -148,11 +147,10 @@ class Places extends Component {
 
         return(
             <div>
-            <ul>
+            <ul className="object-list">
                 { places[this.state.index] }
             </ul>
-            <button onClick={ this.previous } >Previous</button>
-            <button onClick={ this.next } >Next</button>
+            <button onClick={ this.previous } >Vorige</button>
             </div>
             // <Place title={ this.state.title } />
             

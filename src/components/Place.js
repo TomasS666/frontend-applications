@@ -14,7 +14,7 @@ class Place extends Component {
         super(props)
 
        this.state={
-            disabled:"",
+            appear:true,
             liked: 'yeah'
         }
 
@@ -27,7 +27,11 @@ class Place extends Component {
               this.likeChange()
             },
             right: () => {
-              console.log('Swipe right detected.');
+                this.setState({
+                    liked: 'right'
+                })
+  
+                this.likeChange()
             }
           });
        
@@ -40,8 +44,8 @@ class Place extends Component {
     
 
     componentDidMount(){
-        if(this.props.disabled === "true"){
-            this.setState({disabled:"disabled"}) 
+        if(this.props.appear === true){
+            this.setState({ appear:true }) 
         }
     }
 
@@ -53,13 +57,11 @@ class Place extends Component {
     //         // })
     //         this.props.likechange('left');
     //     }
-    
+
     // }
     
     likeChange = (likeValue) =>{
-
-        var test = this.state.liked;
-        this.props.likechange(test);            
+        this.props.likechange(this.state.liked);            
     }
 
 
@@ -68,7 +70,7 @@ class Place extends Component {
     render(){
         return(
             <article {...SwipeReact.events} likechange={this.likeChange} >
-                <p className={this.state.disabled} title={ this.props.title }>{ this.props.title }</p>
+                <h2 className={ this.state.appear ? 'fade-in' : 'fade-out' } title={ this.props.title }>{ this.props.title }</h2>
                 <img src={ this.props.imgPath } alt={ this.props.title }></img>
             </article>
         );
