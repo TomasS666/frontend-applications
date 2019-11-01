@@ -3,7 +3,7 @@ Weleens een Balinese blaaspijp gezien uit 1924? Ik wel en dat terwijl ik lekker 
 Met de nieuwe Museum Match webapp kun je zonder moeite de meest prachtige NMVW collectie bewonderen. Leuk en leerzaam! Wat je gaaf vindt swipe je naar rechts en wat je niet raakt kan lekker naar links.
 
 ## How to install
-#### Step 1 ``` git clone ```
+#### Step 1 ``` git clone https://github.com/TomasS666/frontend-applications.git ```
 #### Step 2 ``` npm install ```
 #### Step 3 ``` npm start ```
 
