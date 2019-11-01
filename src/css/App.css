@@ -57,6 +57,10 @@ article {
   padding: .5rem;
 }
 
+article img {
+  max-width: 100%;
+}
+
 .logo {
   display: block;
   width: 15rem;

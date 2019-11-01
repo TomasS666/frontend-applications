@@ -36,6 +36,10 @@ main{
 article{
     width: 100%;
     padding: .5rem;
+
+    img{
+        max-width: 100%;
+    }
 }
 
 .logo{
